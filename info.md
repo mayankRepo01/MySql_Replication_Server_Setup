@@ -1,4 +1,5 @@
-#### Master server configuration placed into “master/conf/mysql.conf.cnf”.
+# Master server configuration placed into “master/conf/mysql.conf.cnf”
+
 Here is some explaining. First 2 options are used to increase server performance and not related to the replication settings itself.
 skip-host-cache
 Disable use of the internal host cache for faster name-to-IP resolution.
@@ -15,7 +16,8 @@ Specify a database, which statements will be written to binary log file.
 Environment parameters related to launch MySQL in a docker container are placed into “master/mysql_master.env” file
 
 
-#### Replica configuration.
+# Replica configuration.
+
 Some of the configuration parameters repeat the Master database.
 relay-log = /var/log/mysql/mysql-relay-bin.log
 Contains database events, read from the source binary log.
