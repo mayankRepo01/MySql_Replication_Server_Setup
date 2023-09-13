@@ -3,7 +3,7 @@ Docker MySQL master-slave replication
 
 MySQL 8.0 master-slave replication with using Docker. 
 
-Previous version based on MySQL 5.7 is available in [mysql5.7](https://github.com/vbabak/docker-mysql-master-slave/tree/mysql5.7) branch.
+Previous version based on MySQL 5.7 is available in [mysql5.7] branch.
 
 ## Run
 
